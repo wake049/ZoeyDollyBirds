@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  flex-grow: 1; /* take available space */
+  background-color: #FFF7F2;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 0; /* ✅ Remove top margin */
+  color: #410016;
+  letter-spacing: 0.03em;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #552D32;
+  margin-bottom: 1.5rem;
+}
+  html, body {
+  margin: 0;
+  padding: 0;
+}

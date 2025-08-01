@@ -1,0 +1,62 @@
+.contact {
+  flex-grow: 1;
+  background-color: #FFF7F2;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #410016;
+}
+
+.contact p {
+  color: #552D32;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact a {
+  color: #410016;
+  text-decoration: underline;
+}
+
+.map-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact-hours {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.contact-hours h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #410016;
+  text-align: center;
+}
+
+.contact-hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.contact-hours li {
+  font-size: 1.05rem;
+  color: #552D32;
+  line-height: 1.8;
+}
