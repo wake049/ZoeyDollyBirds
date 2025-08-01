@@ -29,7 +29,7 @@
 }
 
 .navbar {
-  position: sticky;
+  position: relative;
   top: 0;
   background-color: #ECE3DC;
   padding: 1rem 2rem;
@@ -42,14 +42,43 @@
   box-sizing: border-box;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #552D32;
+}
+
 @media (max-width: 768px) {
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 1rem;
+  .menu-toggle {
+    display: block;
   }
 
-  .logo {
-    font-size: 1.25rem;
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: #ECE3DC;
+  }
+
+  .nav-links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 72px; /* same as navbar height */
+  right: 0;
+  background-color: #ECE3DC;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #FFBE98;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 999;
+  max-width: 300px;
+}
+
+  .nav-links li {
+    margin: 0.5rem 0;
   }
 }
